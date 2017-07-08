@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+![截图](https://raw.githubusercontent.com/NichenLg/tree-vue/master/static/tree-vue.png)
+
 ## Build Setup
 
 ``` bash
