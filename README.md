@@ -1,6 +1,6 @@
 # tree-vue
 
-> A Tree component of  Vue.js project
+> A Tree component of  Vue.js
 
 ![截图](https://raw.githubusercontent.com/NichenLg/tree-vue/master/static/tree-vue.png)
 
