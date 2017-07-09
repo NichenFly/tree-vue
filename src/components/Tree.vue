@@ -4,8 +4,9 @@
 			<div class="panel panel-info">
 			  <div class="panel-body">
 			  	<div>
+			  		<span v-if="member.children.length > 0" class="glyphicon" v-bind:class="[member.expanded ? 'glyphicon-minus':'glyphicon-plus']"></span>
+					<span v-else class="glyphicon glyphicon-leaf"></span>
 			  		<span>{{member.name}}</span>
-					<span v-if="member.children.length > 0" class="glyphicon" v-bind:class="[member.expanded ? 'glyphicon-minus':'glyphicon-plus']"></span>
 			  	</div>
 			  </div>
 			</div>
