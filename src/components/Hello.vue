@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <!-- <h2>Essential Links</h2> -->
-    <a href="/tree"><h2>Go Tree</h2></a>
+    <router-link to="/tree"><h3>Go Tree</h3></router-link>
   </div>
 </template>
 

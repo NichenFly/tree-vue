@@ -71,6 +71,7 @@ export default {
   }
 }
 
+/*
 //love
 var index = 0; 
 var divs = {};
@@ -83,7 +84,7 @@ document.body.addEventListener('click',function(event){
     top: '-=100px'
   },'slow').hide('slow');
   index++;
-});
+});*/
 </script>
 
 <style>
