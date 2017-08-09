@@ -13,7 +13,7 @@
 		</div>
 		<transition name="fade">
 		  	<div v-show="member.expanded">
-					<div v-for="child in member.children">
+					<div v-for="child in member.children" :key="child.id">
 						<tree v-bind:member="child"></tree>
 					</div>
 			</div>
